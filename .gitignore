@@ -1,0 +1,22 @@
+# Compiled class files
+**/target/
+**/node_modules/
+**/dist/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Database files (if any)
+*.db
+*.sqlite
