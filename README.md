@@ -1,44 +1,81 @@
-# E-Commerce Website
+# 🛒 E-Commerce Website
 
-## Tech Stack
-- Backend: Spring Boot 3.2.0
-- Frontend: React 18.2.0
-- Database: MySQL
+A full-stack E-Commerce application built using **Spring Boot**, **React**, and **MySQL**.
 
-## Backend Setup
-1. Make sure MySQL is running on your machine
-2. Update database credentials in `backend/src/main/resources/application.properties`
-3. Navigate to the backend folder and run:
-   ```bash
-   cd backend
-   mvnw spring-boot:run
-   ```
-   (or use your favorite IDE to run the EcommerceApplication class)
+## 🚀 Tech Stack
 
-## Frontend Setup
-1. Navigate to the frontend folder
-2. Install dependencies:
-   ```bash
-   cd frontend
-   npm install
-   ```
-3. Start the React development server:
-   ```bash
-   npm start
-   ```
+- **Backend:** Spring Boot 3.2.0
+- **Frontend:** React 18.2.0
+- **Database:** MySQL
 
-## Default Credentials
-- Admin: admin / admin123
+---
 
-## Features
+## ✨ Features
+
 - User Registration & Login
 - Product Management (Admin)
 - Shopping Cart
 - Order Placement
 - Admin Dashboard (View All Orders)
+- Session-based Authentication
+- Role-based Access Control (`ADMIN`, `USER`)
 
-## Project Structure
-- Backend: Controller -> Service -> Repository architecture with DTOs
-- Frontend: Simple components using React Router
-- Authentication: Session-based, no JWT
-- Roles: ADMIN and USER
+---
+
+## ⚙️ Backend Setup
+
+1. Make sure MySQL is running.
+2. Update database credentials in:
+
+```text
+backend/src/main/resources/application.properties
+```
+
+3. Start the backend:
+
+```bash
+cd backend
+mvnw spring-boot:run
+```
+
+Or run `EcommerceApplication` from your IDE.
+
+---
+
+## 🎨 Frontend Setup
+
+Install dependencies and start the React app:
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+---
+
+## 🔑 Default Admin Credentials
+
+| Username | Password |
+|----------|----------|
+| admin | admin123 |
+
+---
+
+## 📂 Project Structure
+
+### Backend
+- Controller → Service → Repository architecture
+- DTO-based communication
+- Session-based authentication
+
+### Frontend
+- React components
+- React Router
+
+---
+
+## 👥 Roles
+
+- **ADMIN**
+- **USER**
