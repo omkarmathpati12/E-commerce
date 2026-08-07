@@ -3,7 +3,6 @@
 A full-stack, responsive E-Commerce application built using **Spring Boot 3**, **React 18**, **Tailwind CSS**, and **MySQL**.
 
 ![Stack](https://img.shields.io/badge/Stack-React%20%7C%20Spring%20Boot%20%7C%20MySQL-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 ---
 
@@ -144,9 +143,3 @@ E-commerce/
         ├── App.jsx          # Route definitions & protection
         └── main.jsx         # App entry point
 ```
-
----
-
-## 📝 License
-
-This project is open-source and available under the [MIT License](LICENSE).
