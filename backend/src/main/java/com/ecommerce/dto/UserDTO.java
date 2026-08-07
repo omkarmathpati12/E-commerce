@@ -1,6 +1,6 @@
 package com.ecommerce.dto;
 
-import com.ecommerce.entity.UserRole;
+import com.ecommerce.enums.UserRole;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

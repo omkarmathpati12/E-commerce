@@ -1,5 +1,6 @@
 package com.ecommerce.entity;
 
+import com.ecommerce.enums.UserRole;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;

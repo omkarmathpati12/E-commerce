@@ -1,5 +1,6 @@
 package com.ecommerce.entity;
 
+import com.ecommerce.enums.OrderStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -32,4 +33,11 @@ public class Order {
     
     @Column(nullable = false)
     private LocalDateTime orderDate;
+
+    @OneToOne(mappedBy = "order", cascade = CascadeType.ALL)
+    private Payment payment;
+
+    @Column(nullable = false)
+    private OrderStatus status;
+
 }

@@ -3,7 +3,7 @@ package com.ecommerce.service;
 import com.ecommerce.dto.LoginRequest;
 import com.ecommerce.dto.UserDTO;
 import com.ecommerce.entity.User;
-import com.ecommerce.entity.UserRole;
+import com.ecommerce.enums.UserRole;
 import com.ecommerce.repository.UserRepository;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.password.PasswordEncoder;
